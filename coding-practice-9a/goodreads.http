@@ -1,0 +1,27 @@
+###
+GEt http://localhost:3000/users/
+
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"mani",
+    "username":"ayyappa",
+    "password": "mani@123",
+    "gender": "Male",
+    "location":"tadepalligudem"
+}
+
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"ayyappa",
+    "password": "mani@123"
+}
